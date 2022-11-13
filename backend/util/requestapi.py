@@ -18,3 +18,8 @@ def get_data(hall, date):
     f = open(f"../data/{hall}-menu-on-{date}.json", "w")
     f.write(data)
     f.close()
+
+#for testing purposes gets the data for the following three combinations
+get_data('marciano', '2022-11-12')
+get_data('warren', '2022-11-12')
+get_data('west', '2022-11-12')
