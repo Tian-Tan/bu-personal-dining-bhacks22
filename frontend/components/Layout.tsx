@@ -10,6 +10,7 @@ function Layout({ children, ...props } : Props) {
     return (
         <div>
             <Navibar/>
+            <div style={{ marginTop: '10vh' }}/>
             {children}
         </div>
     );

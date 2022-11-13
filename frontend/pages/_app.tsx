@@ -1,15 +1,19 @@
+import { info } from 'console'
 import type { AppProps } from 'next/app'
-import { SSRProvider } from 'react-bootstrap'
+import { Card, SSRProvider } from 'react-bootstrap'
 import Layout from '../components/Layout'
+import "../styles/global.style.css"
 
 
 // Main App
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <SSRProvider>
-      <Layout> 
-        <Component {...pageProps} /> 
-      </Layout>
-    </SSRProvider>
+      <SSRProvider>
+          <Card className='card'>
+            <Layout> 
+              <Component {...pageProps} /> 
+            </Layout>
+          </Card>
+      </SSRProvider>
   )
 }

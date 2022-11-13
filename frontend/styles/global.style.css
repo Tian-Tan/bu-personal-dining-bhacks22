@@ -1,0 +1,19 @@
+
+.card {
+    color: #e67e22;
+    font-family: Monospace;
+}
+
+h2 {
+    color: black;
+    font-family: Monospace;
+    padding-bottom: 10;
+}
+
+.homepage {
+    width: 80%;
+    border: 15px solid #ffbe76;
+    padding: 50px;
+    margin: 20px;
+    align-items: center;
+}
