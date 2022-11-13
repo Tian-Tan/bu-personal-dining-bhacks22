@@ -16,7 +16,6 @@ out/
 build
 
 # misc
-*.txt
 *.pem
 .DS_Store
 data
