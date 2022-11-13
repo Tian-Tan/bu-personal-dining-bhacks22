@@ -8,8 +8,9 @@ interface food {
     name: string,
     calories: number
 }
-
 function FoodList({ location } : Props) {
+    
+    // Test code for foods
     const foods = [
         { name: "test1", calories: 1},
         { name: "test2", calories: 2},

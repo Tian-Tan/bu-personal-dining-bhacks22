@@ -1,5 +1,7 @@
 import { Navbar, Nav, Container, Dropdown, DropdownButton } from "react-bootstrap";
 
+
+// Navbar to control navigation to different dining hall pages
 function Navibar() {
 
   return (
