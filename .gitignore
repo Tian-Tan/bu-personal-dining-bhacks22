@@ -16,8 +16,12 @@
 /build
 
 # misc
-.DS_Store
+*.txt
+*.json
 *.pem
+.DS_Store
+\data
+\__pycache__
 
 # debug
 npm-debug.log*
