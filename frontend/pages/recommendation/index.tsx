@@ -4,6 +4,7 @@ import PreferredFood from "../../components/PreferredFood";
 function Recommendation() {
     return (
             <Container style={{ marginLeft: '23rem' }}>
+                <h1>Your Recommended Food: </h1>
                 <Row>
                     <Col lg="7">
                         <h2>1.</h2>
