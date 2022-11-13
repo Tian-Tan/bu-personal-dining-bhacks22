@@ -18,7 +18,7 @@ def return_food_list(hall, date, meal):
         Dinner: 1600 - 2100
     '''
     try:
-        f = open(f"data/{hall}-menu-on-{date}.json")
+        f = open(f"../data/{hall}-menu-on-{date}.json")
         data = json.load(f)
         meal_times = {'Breakfast': {'time_begin':'0900', 'time_end':'1100'}, 'Lunch': {'time_begin':'1100', 'time_end':'1700'}, 
         'Dinner': {'time_begin':'1700', 'time_end':'2100'}}
