@@ -17,7 +17,7 @@ function Navibar() {
               <Nav.Link href="/dhall/marciano">Marciano</Nav.Link>
               <Nav.Link href="/dhall/warren">Warren</Nav.Link>
               <Nav.Link href="/dhall/west">West</Nav.Link>
-              <Nav.Link href="/suggestions">Suggestions</Nav.Link>
+              <Nav.Link href="/recommendation">Recommendations</Nav.Link>
             </Nav>
           </Navbar.Collapse>
 

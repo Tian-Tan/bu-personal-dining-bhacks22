@@ -8,7 +8,7 @@ interface Props {
 
 function Layout({ children, ...props } : Props) {
     return (
-        <div style={{height: '120vh'}} className="bg-secondary">
+        <div>
             <Navibar/>
             {children}
         </div>

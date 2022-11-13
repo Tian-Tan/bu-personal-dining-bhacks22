@@ -39,6 +39,8 @@ export const getServerSideProps =  async (context : GetServerSidePropsContext) =
     const time = checkTime();
 
     const res = await fetch(`http://127.0.0.1:5000/api/${location}/${time.d}/${time.m}`)
+
+    // Website at this point will throw an error if backend utils have not been ran
     const foodList = await res.json()
 
     return {
