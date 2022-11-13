@@ -17,7 +17,6 @@ build
 
 # misc
 *.txt
-*.json
 *.pem
 .DS_Store
 data
