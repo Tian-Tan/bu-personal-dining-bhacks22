@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 
 interface Props {
     name: string,
-    calories: number
+    calories: string
 }
 
 function Food({ name, calories } : Props) {

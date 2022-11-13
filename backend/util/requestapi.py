@@ -18,3 +18,6 @@ def get_data(hall, date):
     f = open(f"../data/{hall}-menu-on-{date}.json", "w")
     f.write(data)
     f.close()
+
+get_data("warren", "2022-11-12")
+get_data("west", "2022-11-12")
