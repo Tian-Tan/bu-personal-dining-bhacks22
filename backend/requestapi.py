@@ -15,6 +15,6 @@ def get_data(hall, date):
         date = "YYYY-MM-DD"
     '''
     data = requests.get(f'https://www.bu.edu/dining/api/locations/{hall}/menu/{date}/').text
-    f = open(f"../data/{hall}-menu-on-{date}.json", "w")
+    f = open(f"data/{hall}-menu-on-{date}.json", "w")
     f.write(data)
     f.close()
